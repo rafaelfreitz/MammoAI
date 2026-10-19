@@ -1,24 +1,273 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wayzen Solutions</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <header class="header">
-        <div class="container">
-            <div class="nav">
-                <div class="logo"><img src="/img/Group 1.png" alt="Wayzen Solutions"></div>
-                <nav class="menu">
-                    <a href="#">Início</a>
-                    <a href="#">Sobre</a>
-                    <a href="#">Serviços</a>
-                    <a href="#">Contato</a>
-                </nav>
-            </div>
+    <header>
+        <div class="wrap-bar">
+            <a class="logo" href="#topo"><img src="img/Group 1.png" alt="Wayzen Solutions"></a>
+            <button class="burger" aria-label="Abrir menu" aria-expanded="false">≡</button>
+            <ul class="links">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#solucoes">Soluções</a></li>
+                <li><a href="#projeto">Projeto</a></li>
+                <li><a href="#equipe">Equipe</a></li>
+                <li><a href="#contato" class="btn">Fale conosco</a></li>
+            </ul>
         </div>
     </header>
+
+    <main id="topo">
+        <section class="hero">
+            <div class="wrap">
+                <div>
+                    <h1>Tecnologia prática para processos mais simples.</h1>
+                    <p>A Wayzen Solutions cria plataformas e sistemas digitais que otimizam processos e resolvem
+                        problemas de forma prática e eficiente.</p>
+                    <div class="cta">
+                        <a class="btn" href="#contato"> Fale conosco</a>
+                        <a class="btn ghost" href="#projeto">Conheça o projeto</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- BANNER -->
+        <section class="banner" aria-label="Destaques">
+            <div class="car" aria-roledescription="carrossel">
+                <div class="track">
+                    <article class="slide s1">
+                        <div>
+                            <h3>Plataformas feitas para o seu jeito de trabalhar</h3>
+                            <p>Do primeiro rascunho ao sistema no ar, desenvolvemos soluções digitais que se encaixam na
+                                rotina de quem usa.</p>
+                        </div>
+                    </article>
+
+                    <article class="slide s2">
+                        <div>
+                            <h3>Menos retrabalho, mais tempo para o que importa</h3>
+                            <p>Automatizamos etapas repetitivas para que as equipes foquem no que realmente precisa de
+                                atenção</p>
+                        </div>
+                    </article>
+
+                    <article class="slide s3">
+                        <div>
+                            <h3>Soluções que evoluem junto com o seu negócio</h3>
+                            <p>Depois da entrega, seguimos ajustando e melhorando a plataforma conforme novas
+                                necessidades aparecem.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <button class="cb prev" aria-label="Slide anterior">
+                < </button>
+                    <button class="cb next" aria-label="Próximo slide"> > </button>
+                    <div class="dots"></div>
+
+        </section>
+        <!-- SOBRE -->
+        <section id="sobre">
+            <div class="wrap-two">
+                <div>
+                    <h2>SObre a Wayzen Solutions</h2>
+                    <p class="lead">Somos uma empresa de desenvolvimento de soluções tecnológicas. Criamos plataformas e
+                        sistemas digitais para otimizar processos e resolver problemas do dia a dia de forma prática e
+                        eficiente.</p>
+                </div>
+                <dl>
+                    <div>
+                        <dt>Missão</dt>
+                        <dd>Desenvolver soluções tecnológicas que simplifiquem processos e resolvam problemas reais.
+                        </dd>
+                    </div>
+
+                    <div>
+                        <dt>Visão</dt>
+                        <dd>Ser reconhecida por plataformas e sistemas fáceis de usar e que entregam resultado.</dd>
+                    </div>
+
+                    <div>
+                        <dt>Valores</dt>
+                        <dd>Praticidade, eficiência, clareza e trabalho em equipe.</dd>
+                    </div>
+                </dl>
+            </div>
+        </section>
+        <!-- SOLUÇÕES -->
+        <section id="solucoes" class="services">
+            <div class="wrap">
+                <h2> O que desenvolvemos</h2>
+                <p class="lead"> Quatro frentes de trabalho, todas com o mesmo objetivo: deixar o processo mais simples.
+                </p>
+                <div class="rows">
+                    <div class="row">
+                        <h3>Plataformas web</h3>
+                        <p>Ambientes online acessíveis de qualquer dispositivo, para centralizar informações e serviços.
+                        </p>
+                    </div>
+
+                    <div class="row">
+                        <h3>Sistemas sob medida</h3>
+                        <p>Softwares criados a partir da necessidade de cada cliente, sem recursos que ninguém usa.</p>
+                    </div>
+
+                    <div class="row">
+                        <h3>Suporte e evolução</h3>
+                        <p>Acompanhamento após a entrega, com correções e melhorias contínuas.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- como funciona -->
+        <section>
+            <div class="wrap">
+                <h2>Como trabalhamos</h2>
+                <ol>
+                    <li>
+                        <h3>Entender</h3>
+                        <p>Conversamos para descobrir qual problema precisa ser resolvido.</p>
+                    </li>
+                    <li>
+                        <h3>Planejar</h3>
+                        <p>Definimos a solução, as telas e o que será entregue primeiro.</p>
+                    </li>
+                    <li>
+                        <h3>Construir</h3>
+                        <p>Desenvolvemos em etapas curtas, mostrando o resultado ao longo do caminho.</p>
+                    </li>
+                    <li>
+                        <h3>Evoluir</h3>
+                        <p>Coletamos feedback e melhoramos a plataforma continuamente.</p>
+                    </li>
+                </ol>
+            </div>
+        </section>
+        <!-- projketo -->
+        <section id="projeto" class="projeto">
+            <div class="wrap-two">
+                <div>
+                    <h2>Nosso projeto</h2>
+                    <!-- explicação do nosso projeto  -->
+                    <p class="lead"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus earum ab quis
+                        accusantium soluta? Quo saepe vel quis ea natus tenetur reprehenderit itaque quasi quas, atque
+                        facere hic, non possimus.</p>
+                </div>
+            </div>
+        </section>
+        <!-- equipe -->
+        <section id="equipe">
+            <div class="wrap">
+                <h2>Quem faz a Wayzen</h2>
+                <p class="lead"> As pessoas por trás das soluções.</p>
+                <div class="team">
+                    <div class="member">
+                        <div class="avatar">N1</div>
+                        <h3>Ana Luiza</h3>
+                        <p>Função na equipe</p>
+                        <a href="#">LinkedIn</a>
+                        <a href="#">Github</a>
+                    </div>
+
+                    <div class="member">
+                        <div class="avatar">N2</div>
+                        <h3>Nicollas Trapp</h3>
+                        <p>Função na equipe</p>
+                        <a href="#">LinkedIn</a>
+                        <a href="#">Github</a>
+                    </div>
+
+                    <div class="member">
+                        <div class="avatar">N3</div>
+                        <h3>Rafael Freitas</h3>
+                        <p>Função na equipe</p>
+                        <a href="#">LinkedIn</a>
+                        <a href="#">Github</a>
+                    </div>
+
+                    <div class="member">
+                        <div class="avatar">N4</div>
+                        <h3>Sidney Filho</h3>
+                        <p>Função na equipe</p>
+                        <a href="#">LinkedIn</a>
+                        <a href="#">Github</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="faq">
+            <div class="wrap">
+                <h2>Perguntas frequentes</h2>
+                <details>
+                    <summary>O que a Wayzen Solutions Faz?</summary>
+                    <p>Desenvolvemos plataformas e sistemas digitais para otimizar processos e resolver problemas de
+                        forma prática e eficiente.</p>
+                </details>
+
+                <details>
+                    <summary>Como começo um projeto com a Wayzen?</summary>
+                    <p>Envie uma mensagem pelo formulário de contato contando qual o problema você quer resolver. A
+                        partir daí, marcamos uma conversa.</p>
+                </details>
+
+                <details>
+                    <summary>Vocês acompanham o sistema depois da entrega?</summary>
+                    <p>Sim. seguimos com o suporte e melhorias para a solução continuar útil com o tempo.</p>
+                </details>
+            </div>
+        </section>
+
+        <!-- contato -->
+        <section class="contato">
+            <div class="wrap-two">
+                <div class="info">
+                    <h2>Vamos conversar?</h2>
+                    <p class="lead" style="margin-bottom: 24px;">Conte qual processo você quer simplificar. Respondemos
+                        com os próximos passos.</p>
+                    <p><strong>E-mail</strong>waysolutions@gmail.com</p>
+                    <p><strong>Telefone / WhatsApp</strong>(13)4002-8922</p>
+                    <p><strong>Redes sociais</strong><a href="#">Instagram</a> . <a href="#">LinkedIn</a> . <a href="#">
+                            Github</a></p>
+                </div>
+
+                <form novalidate>
+                    <label>Nome <input type="nome" autocomplete="name"></label>
+                    <label>E-mail <input type="email" name="email" autocomplete="email"></label>
+                    <label>Mensagem<textarea name="mensagem"></textarea></label>
+                    <button class="btn" type="submit">Enviar mensagem</button>
+                    <p class="msg" role="status"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="wrap-foot">
+            <div><strong style="color: #fff;">Wayzen Solutions</strong>
+                <br>
+                Tecnologia prática para processos mais simples.
+            </div>
+
+            <nav aria-label="Rodapé">
+                <a href="#sobre">Sobre</a>
+                <a href="#solucoes">Soluções</a>
+                <a href="#projeto">Projeto</a>
+                <a href="#equipe">Equipe</a>
+                <a href="#contato">Contato</a>
+            </nav>
+
+            <small>&copy; <span id="y">2026</span> Wayzen Solutions. Todos os direitos reservados.</small>
+        </div>
+    </footer>
+    <button class="up" aria-label="Voltar ao topo">Seta pra cima</button>
 </body>
+
 </html>
